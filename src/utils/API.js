@@ -165,7 +165,7 @@ export function getBookedHostelsListRequest() {
 }
 
 export function acceptBookedHostelRequest(id) {
-    return performAuthenticatedPutRequest('api/v1/accept-booked-hostel/' + id, {});
+    return performAuthenticatedPutRequest('api/v1/accept-hostel-book/' + id, {});
 }
 
 export function rejectBookedHostelRequest(id) {
